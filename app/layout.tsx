@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
       {
         url: "/opengraph-image.png",
         width: 512,
-        height: 400,
+        height: 512,
         alt: "Trust Wallet Help - Secure wallet support and guidance",
       },
     ]
