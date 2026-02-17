@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Trust Wallet",
-  description: "Trust wallet reset",
+  description: "Trust wallet help",
 };
 
 export default function RootLayout({
