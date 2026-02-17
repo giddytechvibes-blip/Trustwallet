@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
     siteName: "Trust Wallet Help",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "/favicoingraph.png",
         width: 512,
         height: 512,
         alt: "Trust Wallet Help - Secure wallet support and guidance",
