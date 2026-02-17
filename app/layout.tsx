@@ -20,9 +20,9 @@ const geistMono = Geist_Mono({
     siteName: "Trust Wallet Help",
     images: [
       {
-        url: "/favicoingraph.png",
-        width: 32,
-        height: 32,
+        url: "/favgraph.png",
+        width: 180,
+        height: 180,
         alt: "Trust Wallet Help - Secure wallet support and guidance",
       },
     ]
