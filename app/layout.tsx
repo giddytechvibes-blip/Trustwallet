@@ -10,12 +10,24 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "Trust Wallet",
-  description: "Trust wallet help",
-};
+}); export const metadata: Metadata = {
+  title: "Trust Wallet Help",
+  description: "Secure wallet support and guidance",
+  openGraph: {
+    title: "Trust Wallet Help",
+    description: "Secure wallet support and guidance",
+    url: "https://trustwallet-gules.vercel.app/",
+    siteName: "Trust Wallet Help",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Trust Wallet Help - Secure wallet support and guidance",
+      },
+    ]
+  }
+}
 
 export default function RootLayout({
   children,
