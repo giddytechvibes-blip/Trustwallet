@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
       {
         url: "/favicoingraph.png",
         width: 512,
-        height: 512,
+        height: 256,
         alt: "Trust Wallet Help - Secure wallet support and guidance",
       },
     ]
